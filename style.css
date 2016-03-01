@@ -1,0 +1,111 @@
+body {
+  font-family: helvetica, arial, verdana, sans-serif;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.75;
+}
+
+header {
+  background: black url('redstar.png') no-repeat center;
+  background-size: cover;
+  border-bottom: 25px solid #616161;
+  font-size: 2.25rem;
+  min-height: 100vh;
+}
+
+header h1 {
+  color: #fafafa;
+  line-height: 2;
+  margin: 0;
+  padding: 4%;
+  text-align: center;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.16),
+               0 3px 6px rgba(0,0,0,0.23);
+}
+
+header h1 img {
+  display: inline-block;
+  margin-right: 0.5ch;
+  width: 3ch;
+  vertical-align: middle;
+}
+
+header p {
+  color: #fafafa;
+  margin: 5% auto;
+  max-width: 40ch;
+  padding-bottom: 4ch;
+  text-align: center;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.16),
+               0 3px 6px rgba(0,0,0,0.23);
+}
+
+header nav {
+  text-align: center;
+}
+
+header nav a {
+  background: #3c3a51;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12),
+              0 1px 2px rgba(0,0,0,0.24);
+  color: #fafafa;
+  display: inline-block;
+  line-height: 1;
+  margin: 2ch;
+  min-width: 6ch;
+  padding: 1ch 1.5ch 1.3ch 1.5ch;
+}
+
+header nav a:hover {
+  background: #3a3678;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+              0 3px 6px rgba(0,0,0,0.23);
+}
+
+main {
+  background: #fafafa;
+  padding: 5%;
+  padding-bottom: 10%;
+}
+
+main a {
+  border-bottom: 0.2ch solid;
+  color: black;
+}
+
+main a:hover {
+  color: #3f51b5;
+  color: #1a237e;
+}
+
+main article {
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 64ch;
+}
+
+main article h2 {
+  margin-top: 10%;
+}
+
+footer {
+  background: #212121;
+  padding: 2ch;
+  text-align: center;
+}
+
+footer a {
+  color: #888;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #eee;
+}
